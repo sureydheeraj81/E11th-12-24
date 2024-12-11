@@ -1,0 +1,24 @@
+.region-btn{
+    background-color: #1050a2 !important;
+    color: #fff !important;
+    margin: 8px 0px 0px 2px;
+}
+.login-img-1{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.login-img-2{
+    height: 250px;
+    width: 360px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.login-btn-box{
+    margin-top: 15px;
+}
+.login-link{
+    text-decoration: none;
+}
+.region-img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

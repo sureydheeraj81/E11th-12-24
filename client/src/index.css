@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Noto Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+body{
+  box-sizing: border-box;
+}
+
+.clear {
+  padding: 20px;
+}
+.control-label {
+  font-size: 17px !important;
+}
+
+.pagination li {
+  padding: 5px 8px !important;
+  color: #333;
+  margin-left: 3px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(0, 153, 255);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:480px){
+  .clear{
+    padding: 5px;
+    
+  }
+}
+

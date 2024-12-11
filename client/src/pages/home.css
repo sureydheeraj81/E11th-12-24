@@ -1,0 +1,117 @@
+.carousel-item img {
+    margin-top:0px;
+  }
+  .contain-update{
+    height: 60vh;
+    border: 1px solid rgb(55, 0, 255);
+    border-radius: 10px;
+  }
+  .Latest-update{
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    padding: 5px; 
+  }
+  .Latest-update a{
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .Latest-update img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .marquee-container {
+    height: 50vh !important;
+    padding: 10px;
+    overflow: hidden; 
+    position: relative;
+}
+
+.marquee {
+    position: absolute;
+    width: 100%;
+    animation: scroll-up 15s linear infinite; 
+}
+
+@keyframes scroll-up {
+    from {
+        transform: translateY(100%); 
+    }
+    to {
+        transform: translateY(-100%); 
+    }
+}
+
+.marquee:hover {
+    animation-play-state: paused; 
+}
+  .card-slide{
+    background-color: #1050a2;
+    height: 45vh;
+  }
+  .container-slide{
+    background-color: white;
+    padding: 15px;
+    border-radius: 0px 0px 5px 5px ;
+  }
+  
+  .slick-slide {
+    margin-right: 20px; 
+    
+  }
+  .cr-img{
+    height: 60vh;
+  }
+
+.subs-desc{
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 4;
+    overflow: hidden;
+}
+
+.custom-btn {
+  width: 230px;
+  background: radial-gradient(circle at 10% 20%, rgb(7, 121, 222) 0%, rgb(20, 72, 140) 90%);
+  color: #fff !important;
+}
+.read-btn{
+  background: radial-gradient(circle at 10% 20%, rgb(7, 121, 222) 0%, rgb(20, 72, 140) 90%);
+  color: #fff !important;
+}
+.section_text{
+  margin-right: 70px;
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .custom-btn {
+    width: 175px; 
+    font-size: 15px !important; 
+  }
+  .cr-img{
+    height: 50vh;
+  }
+}
+
+ /* for mobile view*/
+  @media only screen and (max-width: 767px) {
+    .cr-img{
+      height: 30vh;
+    }
+    .custom-btn {
+      width: 230px; 
+      font-size: 16px; 
+    }
+    .section_text{
+      margin-right: 0px;
+    }
+  }
+  @media only screen and (min-width: 767px) and (max-width:1024px){
+    .contain-update{
+      width:100% !important;
+    }
+  }
+
+ 

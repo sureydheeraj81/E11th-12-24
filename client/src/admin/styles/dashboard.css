@@ -1,0 +1,48 @@
+.card-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+.cards {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+}
+.cards p {
+  margin-bottom: 0;
+}
+.cards hr {
+  margin: 7px 0;
+}
+.cards a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.cards:nth-child(1) {
+  background-color: #0f4f83;
+}
+.cards:nth-child(2) {
+  background-color: #556b2f;
+}
+.cards:nth-child(3) {
+  background-color: #8b0000;
+}
+.cards:nth-child(4) {
+  background-color: #c0903d;
+}
+.cards:nth-child(5) {
+  background-color: #008b8b;
+}
+.cards:nth-child(6) {
+  background-color: #662266;
+}
+
+@media (max-width: 480px) {
+  .card-div, .card-contents {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+}

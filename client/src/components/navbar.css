@@ -1,0 +1,96 @@
+.navbar {
+   background-color: #1050a2;
+   color:#fff !important;
+   padding: 0 !important;
+}
+.navbar>.container-fluid{
+   display: inline !important;
+}
+.nav-div{
+   padding: 0 !important;
+}
+.upper-nav{
+   background-color: #fff !important;
+   height:12vh !important;
+   position:fixed;
+}
+.custom-header  {
+   padding: 5px 20px;  
+   color: rgb(250, 242, 242); 
+   font-size: 20px; 
+   margin-left: 5px;
+   background-color: #0056b3 ;
+   border-radius: 20px 20px 20px 20px;   
+}
+.dropdown :hover .dropdown-menu{
+   display: block !important;
+   background-color: #1050a2 !important; 
+}
+.dropdown-menu{
+   background-color: #1050a2 !important;
+   color: #fff !important;
+   border-radius: 0 !important;
+}
+.dropdown-item{
+   color: #fff !important;
+   padding-top: 8px !important;
+   padding-bottom: 8px !important;
+   font-size: 15px;
+   text-align: center !important;
+}
+.dropdown-item:hover{
+   background: #1b68ef !important;
+   color: #fff;
+}
+.subheading {
+   margin: 10px 20px; 
+   font-size: 22px;
+}
+.navbar-nav .nav-link {
+   font-size: 17px;
+   text-align: center;
+   padding: 12px 40px !important; 
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+   background-color: #1b68ef; 
+   color: #fff; 
+}
+
+
+/* CSS to handle hover for dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+   display: block;
+   margin-top: -1px;
+}
+.custom-toggler{
+   color: #fff;
+   border: none;
+}
+.tg-button{
+   border: none !important;
+   box-shadow: none !important;
+}
+.mobile-nav{
+   padding: 10px;
+   margin: 10px 0;
+   text-decoration: none;
+   color: #fff;
+   font-size: 20px;
+}
+
+@media only screen and  (max-width:1366px){
+   .navbar-nav .nav-link{
+      font-size: 15px !important;
+   }
+   .nav-mini{
+      padding: 8px;
+   }
+}
+
+
+
+
+
+
+

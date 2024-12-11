@@ -1,0 +1,8 @@
+.contact-dets{
+    background-image: url('/images/contact-us.jpg');
+    /* width: 100% !important; */
+    /* height: 100%; */
+    padding: 90px 60px 110px ;
+    background-size: cover;
+    border-radius: 8px;
+}

@@ -1,0 +1,21 @@
+.custom-link{
+    color: #343434;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 2.2;
+}
+.custom-link:hover{
+    color: #1050a2;
+}
+.link-box{
+    margin: 30px 15px;
+}
+.custom-ref{
+    color: #343434;
+    text-decoration: none;
+    /* font-size: 18px; */
+}
+.custom-ref:hover{
+    color: #1050a2;
+}

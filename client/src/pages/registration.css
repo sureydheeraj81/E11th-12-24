@@ -1,0 +1,42 @@
+.custom_input {
+  border: none;
+  border-bottom: 2px solid #666666;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 18px !important;
+  width: 80%;
+}
+
+label {
+  margin-bottom: 3px;
+  margin-top: 5px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.link {
+  color: #1050a2;
+  text-decoration: none;
+}
+
+.form-icon {
+  margin-top: 15px;
+  color: #1050a2;
+}
+
+.ic-span {
+  display: flex;
+  gap: 20px;
+}
+.custom-sub-btn {
+  width: 90%;
+  margin-top: 20px;
+  background: radial-gradient(circle at 10% 20%, rgb(7, 121, 222) 0%, rgb(20, 72, 140) 90%);
+  color: #fff !important;
+}
+.download-table thead tr {
+	background-color: #1050a2;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.box_header {
+  background-color: #1050a2;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 17px;
+}
+.box_body {
+  border: 1px solid #1050a2;
+  padding: 10px;
+  font-size: 17px;
+  padding: 10px 25px;
+}
+.plan-form input,
+.plan-form textarea {
+  padding: 5px;
+  outline: none;
+}
+.plan-select {
+  outline: none;
+  padding: 5px;
+}
+
+.cus-toggle {
+  transition: transform 0.6s ease;
+}
+
+[aria-expanded="true"] .cus-toggle {
+  transform: rotate(-180deg);
+}
+
+.data_table {
+  text-align: center;
+}
+.desc{
+  text-align: justify;
+}
+.feed-desc{
+  font-size: 14px;
+  color: #1050a2 !important;
+}
+.table-div-admin{
+  overflow-x: auto;
+}
